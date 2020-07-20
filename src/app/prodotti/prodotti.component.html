@@ -1,1 +1,7 @@
-<h1>prodotti works!</h1>
+<h1 class="title">I NOSTRI PRODOTTI</h1>
+<div class="gridContainer">
+    <div *ngFor="let product of products" class="menuItem">
+        <h3>{{ product.name }}</h3>
+        <img src={{product.imageUrl}} alt={{product.name}}>
+    </div>
+</div>

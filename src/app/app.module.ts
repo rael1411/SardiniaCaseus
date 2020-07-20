@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ProdottiComponent } from './prodotti/prodotti.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ContattiComponent } from './contatti/contatti.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProdottiComponent
+    ProdottiComponent,
+    ContattiComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

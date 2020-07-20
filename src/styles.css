@@ -36,7 +36,6 @@ header{
 }
 
 #logo{
-    align-self: "right";
-    max-height: 100px;
+    max-height: 200px;
     margin-bottom: 0px;
 }
